@@ -32,7 +32,7 @@ A production batch of **10 units** was built and delivered for Caatinga tree wat
 
 ## Demo video
 
-Public walkthrough of how to use the logger in the field (BLE download / phone workflow):
+Public walkthrough of how to use the logger in the field (BLE download / phone workflow). **Spoken language: Portuguese.**
 
 **https://www.youtube.com/watch?v=al5Gi5oz8YY&t=558s**
 
