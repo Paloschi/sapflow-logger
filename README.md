@@ -53,17 +53,42 @@ Build with the Arduino IDE / ESP32 core. Install library dependencies used by th
 
 ---
 
-## Field use & related publications
+## Version history (important)
 
-These loggers were designed, built, and supplied (10 units: **SD + Bluetooth + mobile app**) for sap-flow / tree water-use campaigns associated with the group of **Prof. Eduardo Soares de Souza** (UFRPE) and collaborators, including fieldwork involving **Angela Lucena Nascimento de Jesus**.
+| Version | What it is | Used in |
+| --- | --- | --- |
+| **Thesis-era logger** (pre–Hardware 6.0) | Earlier Paloschi design developed during the INPE Ph.D. | Paloschi et al. 2021 (*Remote Sensing*), the Ph.D. thesis, and Ventura et al. (water-sources / Caatinga; Paloschi co-author) |
+| **Hardware 6.0** (this repo’s `firmware/`) | Later open-source revision (ESP32, SD, BLE, phone app) | Production batch of ~10 units for UFRPE / Eduardo Soares de Souza Caatinga campaigns (Angela Lucena Nascimento de Jesus and collaborators) |
 
-Papers from those campaigns (and the same group’s sap-velocity / canopy water-use line of work):
+The open firmware here is **Hardware 6.0**, not a bit-for-bit dump of the thesis instrumentation.
+
+---
+
+## Science that used the thesis-era logger
+
+Primary (Rennan A. Paloschi as first author):
+
+1. **Paloschi, R. A.**; Ramos, D. M.; Ventura, D. J.; Souza, R.; Souza, E.; Morellato, L. P. C.; Nóbrega, R. L. B.; Coutinho, Í. A. C.; Verhoef, A.; Körting, T. S.; **Borma, L. S.** (2021). Environmental Drivers of Water Use for Caatinga Woody Plant Species: Combining Remote Sensing Phenology and Sap Flow Measurements. *Remote Sensing*, 13(1), 75. https://doi.org/10.3390/rs13010075  
+
+2. **Paloschi, R. A.** (2021). Ph.D. thesis, INPE — Caatinga water use / phenology / sap flow (thesis-era logger).  
+
+Related (Dione Judite Ventura as lead; Paloschi co-author — same thesis-era field instrumentation / Borma group):
+
+3. **Ventura, D. J.**; Barros, F.; Pinheiro, R. C.; Meneghetti, C. D.; **Paloschi, R.**; Moura, M. S. B.; …; **Borma, L. S.** (2024). Seasonal dynamics of water sources for woody plants in the Caatinga. Authorea preprint. https://doi.org/10.22541/au.173397840.03126234/v1
+
+---
+
+## Later campaigns (Hardware 6.0 lineage)
+
+Hardware 6.0 units were built and supplied (10 units: **SD + Bluetooth + mobile app**) for sap-flow / tree water-use campaigns associated with **Prof. Eduardo Soares de Souza** (UFRPE) and collaborators, including fieldwork involving **Angela Lucena Nascimento de Jesus**.
+
+Papers from those campaigns (Granier-style sensors / site meteorology; they do **not** currently name this open-source logger in Methods or Acknowledgements):
 
 1. **Medeiros, M.**; Lima, A. L. A.; Silva, J. R. I.; **Jesus, A. L. N.**; Wright, C. L.; **Souza, E. S.**; Santos, M. G. (2025). Seasonal shifts in tree water use and non-structural carbohydrate storage in a tropical dry forest. *Plant, Cell & Environment*, 48(6), 4518–4532. https://doi.org/10.1111/pce.15449  
 
 2. **Jesus, A. L. N.**; Brito, N. D. S.; Medeiros, M.; **Souza, E. S.**; Lima, A. L. A. (2025). Semiarid woody plant functional groups contribute differently to canopy conductance. *Journal of Arid Environments*. https://doi.org/10.1016/j.jaridenv.2025.105318  
 
-**Citation honesty:** those articles describe **Granier-style thermal dissipation sensors** (and site meteorology on Campbell equipment where applicable). They do **not** currently name this open-source logger in Methods or Acknowledgements. This repository is the public record of the **field electronics that were built and delivered** for that style of campaign. If you use this hardware or firmware, please cite **this repository** (and optionally the papers above for scientific context).
+If you use this hardware or firmware, please cite **this repository** (and the Paloschi et al. 2021 paper / thesis for the scientific context of the earlier logger).
 
 ---
 
