@@ -70,7 +70,7 @@ Primary (Rennan A. Paloschi as first author):
 
 1. **Paloschi, R. A.**; Ramos, D. M.; Ventura, D. J.; Souza, R.; Souza, E.; Morellato, L. P. C.; Nóbrega, R. L. B.; Coutinho, Í. A. C.; Verhoef, A.; Körting, T. S.; **Borma, L. S.** (2021). Environmental Drivers of Water Use for Caatinga Woody Plant Species: Combining Remote Sensing Phenology and Sap Flow Measurements. *Remote Sensing*, 13(1), 75. https://doi.org/10.3390/rs13010075  
 
-2. **Paloschi, R. A.** (2021). Ph.D. thesis, INPE — Caatinga water use / phenology / sap flow (thesis-era logger).  
+2. **Paloschi, R. A.** (2020/2021). *Seasonality of water availability, plant phenology, and plant transpiration in a Brazilian Caatinga environment investigated by in situ and remote sensing data*. Ph.D. thesis (Remote Sensing), INPE, São José dos Campos. http://urlib.net/sid.inpe.br/mtc-m21c/2021/01.13.15.06  
 
 Related (Dione Judite Ventura as lead; Paloschi co-author — same thesis-era field instrumentation / Borma group):
 
